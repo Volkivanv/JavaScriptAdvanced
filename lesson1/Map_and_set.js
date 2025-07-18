@@ -38,7 +38,7 @@
 //     console.log(amount);
 // }
 
-// //перебор в форматек [ключ, значение]
+// //перебор в формате [ключ, значение]
 // for (let entry of recipeMap){
 //     console.log(entry);
 // }
