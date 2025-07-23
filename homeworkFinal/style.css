@@ -1,0 +1,8 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.feedback{
+    height: 200px;
+}
