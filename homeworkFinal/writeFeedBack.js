@@ -19,7 +19,7 @@ submit.addEventListener("click", function (e) {
     console.log(newId);
     let productFound = false;
     const newReview = {
-        id: newId,
+        id: newId.toString(),
         text: productReview.value,
     };
 
@@ -38,7 +38,7 @@ submit.addEventListener("click", function (e) {
             product: productName.value,
             reviews: [
                 {
-                    id: newId,
+                    id: newId.toString(),
                     text: productReview.value,
                 },
             ],
